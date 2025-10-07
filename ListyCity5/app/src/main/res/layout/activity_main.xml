@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/city_name_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="7"/>
+    <EditText
+        android:id="@+id/province_name_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="7" />
+    <Button
+        android:id="@+id/add_city_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add City"/>
+
+    <Button
+        android:id="@+id/delete_city_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete City" />
+
+    <ListView
+        android:id="@+id/city_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+
+
+</LinearLayout>
